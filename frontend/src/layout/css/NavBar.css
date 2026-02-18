@@ -1,0 +1,62 @@
+/** Navbar.css **/
+
+#user-pic {
+  background-color: #fff;
+  height: 50px;           /* Increased size */
+  width: 50px;            /* Ensure width matches height */
+  border-radius: 50%;     /* Makes it round */
+  object-fit: cover;      /* Ensures image covers the area */
+  cursor: pointer;
+  border: 2px solid #b4b3b3; /* Optional: subtle border */
+}
+
+#user-info {
+  position: absolute;
+  top: 55px;
+  right: 10px;
+  background-color: #e4e6e7;
+  border: 1px solid #b4b3b3;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+#user-info p {
+  font-weight: 600;
+}
+
+#admin-button-on {
+  position: relative;   
+  background-color: #1ff922; 
+  color: black; 
+  padding: 10px; 
+  border: 1px solid #018304;
+  border-radius: 5px;
+  cursor: pointer; 
+  font-size: 16px; 
+}
+#admin-button-on:hover {
+  background-color: #f7fb0e;
+}
+#admin-button-on:active {
+  background-color: #d2d507;
+}
+#admin-button-off {
+  position: relative;   
+  background-color: #f3f4f5; 
+  color: black; 
+  padding: 10px; 
+  border: 1px solid #b4b3b3;
+  border-radius: 5px;
+  cursor: pointer; 
+  font-size: 16px; 
+}
+#admin-button-off:hover {
+  background-color: #1ff922;
+}
+#admin-button-off:active {
+  background-color: #05d809;
+}
+
+

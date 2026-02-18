@@ -1,0 +1,29 @@
+/** Edit Nav **/
+#en-content-container {
+    position: relative;   
+    background-color: white; 
+    padding: 20px;
+    width: 100%;
+}
+#edit-nav-note {
+    position: relative; 
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px;
+    background-color: #d6d6fc;
+    border: 1px solid rgb(146, 197, 248);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+#edit-nav-note h1{
+    font-size: 28px;
+    color: #392bde;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#edit-nav-note p, li{
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    line-height: 1.6;
+}

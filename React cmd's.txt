@@ -1,0 +1,40 @@
+Useful commands for React - use Windows Powershell as of Windows 11 the native Command Prompt is being replaced.
+
+1.
+To check if node & npm are installed:
+> node --version
+> npm --version
+Should just return the version number if they're installed.
+
+2.
+To create a React App:
+> npx create-react-app react-demo
+
+To install dependencies:
+> npm i
+
+3.
+To run your React App:
+> cd C:\Users\Zimbabwe\Projects\react-workspace\react-demo
+> npm start
+
+This should open the project 'react-demo' from the directory you changed to, on localhost:3000 in my browser
+
+4. 
+To build your App for deployment to server:
+Add "homepage" to the package.json file under "name", for example;
+  "name": "react-demo",
+  "homepage":"http://zimtec.ie/products/react-demo/",
+  ...
+ 
+Then run the build:
+> npm run build
+
+Then simply copy and paste or upload all files in the local build directory to the last folder declared in "homepage" url remote directory.
+
+Problems with version of React script
+see this: https://www.freecodecamp.org/news/error-error-0308010c-digital-envelope-routines-unsupported-node-error-solved/
+Uninstall and reinstall react-scripts
+- open the terminal and run: npm uninstall react-scripts
+- run: npm install react-scripts
+

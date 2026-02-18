@@ -1,0 +1,40 @@
+/** Admin Tab **/
+#admin-tab {
+  display: flex;
+  justify-content: flex-start; /* Align items from left to right */
+  align-items: center; /* Align items vertically */
+  padding: 10px;
+  background-color: #f5f6fa;
+  color: #000;
+  text-align: center;
+}
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  visibility: hidden;
+  transition-delay: 0.5s;
+}
+.visible {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 5px 25px;  
+  border-right: 2px solid #d6d7db;
+}
+.active {
+  background-color: #fff;
+  outline: 3px solid #d6d7db;
+  border-radius: 3px;
+  border-right-color: #f5f6fa; /* removes dbl border on right */
+} 
+
+.flex-container img {
+  margin-right: 1px;
+}

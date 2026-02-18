@@ -1,0 +1,17 @@
+/** EditDetails.css **/
+
+.ed-accordion-content {
+  display: flex;
+  flex-direction: column; /* stack rows vertically */
+  gap: 24px;
+  padding: 28px;
+  background: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.fields-row {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  justify-content: flex-start;
+}

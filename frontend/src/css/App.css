@@ -1,0 +1,18 @@
+/** App **/
+
+#App {
+  text-align: center;
+}
+
+#main-content-area {
+  position: relative;
+  float: right;
+  width: 85%;
+  
+  margin-left: -15%;
+  background-color: white;
+  padding: 20px;
+ 
+  box-sizing: border-box; 
+  min-height: 100vh; /* Optional: ensures background fills the page */
+}

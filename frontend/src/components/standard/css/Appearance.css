@@ -1,0 +1,32 @@
+#appearance-container {
+    position: relative;   
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+}
+
+#appearance-note {
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+#appearance-note h1 {
+    font-size: 28px;
+    color: #4a90e2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#appearance-note p {
+    font-size: 18px;
+    color: #4e4d4d;
+    text-align: center;
+    line-height: 1.6;
+    font-style: normal;
+}

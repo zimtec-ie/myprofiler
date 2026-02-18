@@ -1,0 +1,22 @@
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables (secured in subfolders)
+.env
+.env.local
+
+# Backups (git itself is version control)
+BACKUP*/
+**/BACKUP*/
+
+# Documentation
+SETUP_GUIDE.md

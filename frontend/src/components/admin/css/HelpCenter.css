@@ -1,0 +1,30 @@
+/** Edit Appearance **/
+#hc-content-container {
+    position: relative;   
+    background-color: white; 
+    padding: 20px;
+    width: 100%;
+}
+#help-center-note {
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px;
+    background-color: #cdf8b0;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+#help-center-note h1{
+    font-size: 28px;
+    color: #029514;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#help-center-note p, li{
+    font-size: 18px;
+    color: #4e4d4d;
+    text-align: center;
+    line-height: 1.6;
+    font-style: normal;
+}
