@@ -132,7 +132,11 @@ The backend includes **Spring Boot DevTools** for automatic restart on code chan
 
 ## 📄 License
 
-Copyright © ZIMTEC | Web Developers
+**Copyright © 2026 ZIMTEC | Web Developers. All Rights Reserved.**
+
+This is proprietary software. Unauthorized copying, modification, distribution, or use of this software is strictly prohibited without express written permission from ZIMTEC.
+
+See the [LICENSE](LICENSE) file for full details.
 
 ## 👥 Authors
 
