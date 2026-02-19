@@ -19,7 +19,11 @@ import jakarta.servlet.http.HttpServletRequest;
 
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000", "http://zimtec.ie"})
+@CrossOrigin(origins = {
+    "http://localhost:3000", 
+    "http://zimtec.ie",
+    "http://www.zimtec.ie"
+})
 public class ProfileController {
 	
 	/* Dev tool Part 2 of 3:
