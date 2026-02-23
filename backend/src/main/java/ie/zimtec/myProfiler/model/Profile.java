@@ -12,7 +12,7 @@ public class Profile {
 	
 	/* Variables */
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
     private Long id;
     private String privilege;
     private String name;  
