@@ -52,7 +52,13 @@ public class ProfileController {
     	 * Can remove later
     	 * 
     	 * */
-    	String ipAddress = request.getRemoteAddr(); 
+    	String ipAddress = request.getHeader("X-Forwarded-For");
+    	if (ipAddress == null || ipAddress.isEmpty()) {
+    		ipAddress = request.getRemoteAddr();
+    	} else {
+    		// X-Forwarded-For can contain multiple IPs; the first is the original client
+    		ipAddress = ipAddress.split(",")[0].trim();
+    	}
     	String userAgent = request.getHeader("User-Agent");
         logger.info("Someone has logged in from IP: " + ipAddress + " using device: " + userAgent);
         /* end */
